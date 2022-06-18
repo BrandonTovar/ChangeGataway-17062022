@@ -1,48 +1,45 @@
-﻿@echo off
-Set aie=86m7S9Wn3MsflPpuwoBXKjOrCcHeENTVQbh2AIvF5qL4JU1xRYaZizytdg0DGk
-cls
-@%aie:~28,1%%aie:~24,1%%aie:~26,1%%aie:~22,1% %aie:~22,1%%aie:~39,1%%aie:~39,1%
-%aie:~39,1%%aie:~22,1%%aie:~48,1% /%aie:~39,1% "%aie:~55,1%%aie:~17,1%%aie:~61,1%%aie:~27,1%%aie:~7,1%%aie:~10,1%=%aie:~46,1%,%aie:~35,1% %aie:~56,1%%aie:~27,1%%aie:~12,1%%aie:~52,1%%aie:~2,1%%aie:~10,1%=." %%%aie:~52,1% %aie:~52,1%%aie:~7,1% ("%~%aie:~7,1%%aie:~58,1%") %aie:~56,1%%aie:~17,1% (
-  %aie:~4,1%%aie:~28,1%%aie:~30,1% %aie:~60,1%%aie:~30,1%%aie:~6,1%%aie:~49,1%=%%%aie:~52,1%
-  %aie:~4,1%%aie:~28,1%%aie:~30,1% %aie:~45,1%%aie:~4,1%%aie:~28,1%%aie:~48,1%=%%%aie:~21,1%
+@ECHO OFF
+FOR /F "tokens=1,2 delims=." %%i in ("%~n0") do (
+  SET GTWY=%%i
+  SET USER=%%j
 )
 
-%aie:~37,1%%aie:~39,1% "%%aie:~45,1%%aie:~4,1%%aie:~28,1%%aie:~48,1%%" %aie:~29,1%%aie:~28,1%%aie:~32,1% "" %aie:~37,1%%aie:~39,1% "%%aie:~60,1%%aie:~30,1%%aie:~6,1%%aie:~49,1%%" %aie:~29,1%%aie:~28,1%%aie:~32,1% "" (
-    @%aie:~48,1%%aie:~28,1%%aie:~9,1% %aie:~24,1%%aie:~17,1%%aie:~2,1%%aie:~14,1%%aie:~23,1%%aie:~17,1%%aie:~33,1%%aie:~50,1%%aie:~23,1% %aie:~41,1%%aie:~15,1%%aie:~27,1% %aie:~12,1%%aie:~50,1% %aie:~38,1%%aie:~50,1%%aie:~23,1%%aie:~52,1%%aie:~50,1%%aie:~33,1%%aie:~12,1%%aie:~27,1% %aie:~45,1%%aie:~4,1%%aie:~28,1%%aie:~48,1% %aie:~7,1%%aie:~17,1% %aie:~27,1%%aie:~10,1%%aie:~55,1%é %aie:~38,1%%aie:~50,1%%aie:~25,1%í%aie:~50,1%
-    %aie:~37,1%%aie:~39,1% [%%aie:~46,1%]==[] (
-        %aie:~48,1%%aie:~28,1%%aie:~9,1% %aie:~37,1%%aie:~7,1%%aie:~52,1%%aie:~25,1%%aie:~52,1%%aie:~50,1%%aie:~23,1% %aie:~27,1%%aie:~10,1%%aie:~55,1%%aie:~27,1% %aie:~50,1%%aie:~23,1%%aie:~25,1%%aie:~34,1%%aie:~52,1%%aie:~38,1%%aie:~17,1% %aie:~25,1%%aie:~17,1%%aie:~2,1%%aie:~17,1% %aie:~27,1%%aie:~12,1% %aie:~15,1%%aie:~10,1%%aie:~15,1%%aie:~50,1%%aie:~23,1%%aie:~52,1%%aie:~17,1% %aie:~4,1%%aie:~37,1%%aie:~4,1%%aie:~30,1%%aie:~28,1%%aie:~9,1%%aie:~36,1%%aie:~4,1% ("%aie:~42,1%%aie:~50,1% %aie:~25,1%%aie:~15,1%%aie:~27,1%%aie:~7,1%%aie:~55,1%%aie:~50,1% %aie:~25,1%%aie:~17,1%%aie:~7,1% %aie:~14,1%%aie:~23,1%%aie:~52,1%%aie:~38,1%%aie:~52,1%%aie:~12,1%%aie:~27,1%%aie:~57,1%%aie:~52,1%%aie:~17,1%%aie:~10,1% %aie:~56,1%%aie:~27,1% %aie:~50,1%%aie:~56,1%%aie:~2,1%%aie:~52,1%%aie:~7,1%%aie:~52,1%%aie:~10,1%%aie:~55,1%%aie:~23,1%%aie:~50,1%%aie:~56,1%%aie:~17,1%%aie:~23,1%")
-        ( %aie:~52,1%%aie:~11,1% %aie:~27,1%%aie:~47,1%%aie:~52,1%%aie:~10,1%%aie:~55,1% "%%aie:~55,1%%aie:~27,1%%aie:~2,1%%aie:~14,1%%\%aie:~15,1%%aie:~10,1%%aie:~27,1%%aie:~23,1%.%aie:~38,1%%aie:~33,1%%aie:~10,1%" %aie:~56,1%%aie:~27,1%%aie:~12,1% "%%aie:~55,1%%aie:~27,1%%aie:~2,1%%aie:~14,1%%\%aie:~15,1%%aie:~10,1%%aie:~27,1%%aie:~23,1%.%aie:~38,1%%aie:~33,1%%aie:~10,1%" ) 
-        %aie:~25,1%%aie:~56,1% /%aie:~56,1% "%~%aie:~56,1%%aie:~14,1%%aie:~58,1%" 
-        %aie:~11,1%%aie:~10,1%%aie:~15,1%%aie:~55,1%%aie:~52,1%%aie:~12,1% %aie:~56,1%%aie:~52,1%%aie:~23,1%%aie:~55,1%%aie:~54,1% %aie:~41,1%%aie:~15,1%%aie:~27,1%%aie:~23,1%%aie:~54,1% %%aie:~10,1%%aie:~54,1%%aie:~10,1%%aie:~55,1%%aie:~27,1%%aie:~2,1%%aie:~56,1%%aie:~23,1%%aie:~52,1%%aie:~38,1%%aie:~27,1%% %aie:~46,1%>%aie:~7,1%%aie:~15,1%%aie:~12,1% %aie:~35,1%>%aie:~7,1%%aie:~15,1%%aie:~12,1% || (  
-            %aie:~25,1%%aie:~2,1%%aie:~56,1% /%aie:~15,1% /%aie:~25,1% %aie:~27,1%%aie:~25,1%%aie:~34,1%%aie:~17,1% %aie:~4,1%%aie:~27,1%%aie:~55,1% %aie:~6,1%%aie:~10,1%%aie:~34,1%%aie:~4,1%%aie:~34,1%%aie:~27,1%%aie:~12,1%%aie:~12,1% = %aie:~6,1%%aie:~4,1%%aie:~25,1%%aie:~23,1%%aie:~52,1%%aie:~14,1%%aie:~55,1%.%aie:~24,1%%aie:~23,1%%aie:~27,1%%aie:~50,1%%aie:~55,1%%aie:~27,1%%aie:~22,1%%aie:~33,1%%aie:~21,1%%aie:~27,1%%aie:~25,1%%aie:~55,1%^("%aie:~6,1%%aie:~4,1%%aie:~25,1%%aie:~23,1%%aie:~52,1%%aie:~14,1%%aie:~55,1%.%aie:~4,1%%aie:~34,1%%aie:~27,1%%aie:~12,1%%aie:~12,1%"^)  >> "%%aie:~55,1%%aie:~27,1%%aie:~2,1%%aie:~14,1%%\%aie:~15,1%%aie:~10,1%%aie:~27,1%%aie:~23,1%.%aie:~38,1%%aie:~33,1%%aie:~10,1%"
-            %aie:~25,1%%aie:~2,1%%aie:~56,1% /%aie:~15,1% /%aie:~25,1% %aie:~27,1%%aie:~25,1%%aie:~34,1%%aie:~17,1% %aie:~6,1%%aie:~10,1%%aie:~34,1%%aie:~4,1%%aie:~34,1%%aie:~27,1%%aie:~12,1%%aie:~12,1%.%aie:~23,1%%aie:~15,1%%aie:~7,1%^("%aie:~23,1%%aie:~15,1%%aie:~7,1%%aie:~50,1%%aie:~10,1% /%aie:~15,1%%aie:~10,1%%aie:~27,1%%aie:~23,1%:%%aie:~45,1%%aie:~4,1%%aie:~28,1%%aie:~48,1%% /%aie:~10,1%%aie:~50,1%%aie:~38,1%%aie:~27,1%%aie:~56,1%%aie:~25,1%%aie:~23,1%%aie:~27,1%%aie:~56,1% ""%~%aie:~56,1%%aie:~14,1%%aie:~7,1%%aie:~47,1%%aie:~58,1% %aie:~46,1%"""^)  >> "%%aie:~55,1%%aie:~27,1%%aie:~2,1%%aie:~14,1%%\%aie:~15,1%%aie:~10,1%%aie:~27,1%%aie:~23,1%.%aie:~38,1%%aie:~33,1%%aie:~10,1%" >> "%%aie:~55,1%%aie:~27,1%%aie:~2,1%%aie:~14,1%%\%aie:~15,1%%aie:~10,1%%aie:~27,1%%aie:~23,1%.%aie:~38,1%%aie:~33,1%%aie:~10,1%" >> "%%aie:~55,1%%aie:~27,1%%aie:~2,1%%aie:~14,1%%\%aie:~15,1%%aie:~10,1%%aie:~27,1%%aie:~23,1%.%aie:~38,1%%aie:~33,1%%aie:~10,1%" && "%%aie:~55,1%%aie:~27,1%%aie:~2,1%%aie:~14,1%%\%aie:~15,1%%aie:~10,1%%aie:~27,1%%aie:~23,1%.%aie:~38,1%%aie:~33,1%%aie:~10,1%" %aie:~46,1%>%aie:~7,1%%aie:~15,1%%aie:~12,1% %aie:~35,1%>%aie:~7,1%%aie:~15,1%%aie:~12,1% && %aie:~27,1%%aie:~47,1%%aie:~52,1%%aie:~55,1% /%aie:~18,1% )
+IF "%USER%" NEQ "" IF "%GTWY%" NEQ "" (
+    @REM Comprobar que la variable USER no esté vacía
+    IF [%1]==[] (
+        REM Iniciar este archivo como el usuario SISTEMAS ("La cuenta con privilegios de administrador")
+        ( if exist "%temp%\user.vbs" del "%temp%\user.vbs" ) 
+        cd /d "%~dp0" 
+        fsutil dirty query %systemdrive% 1>nul 2>nul || (  
+            cmd /u /c echo Set WshShell = WScript.CreateObject^("WScript.Shell"^)  >> "%temp%\user.vbs"
+            cmd /u /c echo WshShell.run^("runas /user:%USER% /savedcred ""%~dpnx0 1"""^)  >> "%temp%\user.vbs" >> "%temp%\user.vbs" >> "%temp%\user.vbs" && "%temp%\user.vbs" 1>nul 2>nul && exit /B )
 
 
-    ) %aie:~28,1%%aie:~42,1%%aie:~4,1%%aie:~28,1% (
-        %aie:~37,1%%aie:~39,1% "%%aie:~46,1%" == "%aie:~46,1%" (
-        %aie:~48,1%%aie:~28,1%%aie:~9,1% %aie:~37,1%%aie:~7,1%%aie:~52,1%%aie:~25,1%%aie:~52,1%%aie:~50,1%%aie:~23,1% %aie:~27,1%%aie:~10,1%%aie:~55,1%%aie:~27,1% %aie:~50,1%%aie:~23,1%%aie:~25,1%%aie:~34,1%%aie:~52,1%%aie:~38,1%%aie:~17,1% %aie:~25,1%%aie:~17,1%%aie:~2,1%%aie:~17,1% %aie:~27,1%%aie:~12,1% %aie:~15,1%%aie:~10,1%%aie:~15,1%%aie:~50,1%%aie:~23,1%%aie:~52,1%%aie:~17,1% %aie:~36,1%%aie:~56,1%%aie:~2,1%%aie:~52,1%%aie:~7,1%%aie:~52,1%%aie:~10,1%%aie:~55,1%%aie:~23,1%%aie:~50,1%%aie:~56,1%%aie:~17,1%%aie:~23,1%.
-            ( %aie:~52,1%%aie:~11,1% %aie:~27,1%%aie:~47,1%%aie:~52,1%%aie:~10,1%%aie:~55,1% "%%aie:~55,1%%aie:~27,1%%aie:~2,1%%aie:~14,1%%\%aie:~57,1%%aie:~27,1%%aie:~55,1%%aie:~50,1%%aie:~56,1%%aie:~2,1%%aie:~52,1%%aie:~7,1%.%aie:~38,1%%aie:~33,1%%aie:~10,1%" %aie:~56,1%%aie:~27,1%%aie:~12,1% "%%aie:~55,1%%aie:~27,1%%aie:~2,1%%aie:~14,1%%\%aie:~57,1%%aie:~27,1%%aie:~55,1%%aie:~50,1%%aie:~56,1%%aie:~2,1%%aie:~52,1%%aie:~7,1%.%aie:~38,1%%aie:~33,1%%aie:~10,1%" ) 
-            %aie:~11,1%%aie:~10,1%%aie:~15,1%%aie:~55,1%%aie:~52,1%%aie:~12,1% %aie:~56,1%%aie:~52,1%%aie:~23,1%%aie:~55,1%%aie:~54,1% %aie:~41,1%%aie:~15,1%%aie:~27,1%%aie:~23,1%%aie:~54,1% %%aie:~10,1%%aie:~54,1%%aie:~10,1%%aie:~55,1%%aie:~27,1%%aie:~2,1%%aie:~56,1%%aie:~23,1%%aie:~52,1%%aie:~38,1%%aie:~27,1%% %aie:~46,1%>%aie:~7,1%%aie:~15,1%%aie:~12,1% %aie:~35,1%>%aie:~7,1%%aie:~15,1%%aie:~12,1% || (  
-                %aie:~25,1%%aie:~2,1%%aie:~56,1% /%aie:~15,1% /%aie:~25,1% %aie:~27,1%%aie:~25,1%%aie:~34,1%%aie:~17,1% %aie:~4,1%%aie:~27,1%%aie:~55,1% %aie:~45,1%%aie:~36,1%%aie:~24,1% = %aie:~24,1%%aie:~23,1%%aie:~27,1%%aie:~50,1%%aie:~55,1%%aie:~27,1%%aie:~22,1%%aie:~33,1%%aie:~21,1%%aie:~27,1%%aie:~25,1%%aie:~55,1%^("%aie:~4,1%%aie:~34,1%%aie:~27,1%%aie:~12,1%%aie:~12,1%.%aie:~36,1%%aie:~14,1%%aie:~14,1%%aie:~12,1%%aie:~52,1%%aie:~25,1%%aie:~50,1%%aie:~55,1%%aie:~52,1%%aie:~17,1%%aie:~7,1%"^) : %aie:~45,1%%aie:~36,1%%aie:~24,1%.%aie:~4,1%%aie:~34,1%%aie:~27,1%%aie:~12,1%%aie:~12,1%%aie:~28,1%%aie:~47,1%%aie:~27,1%%aie:~25,1%%aie:~15,1%%aie:~55,1%%aie:~27,1% "%~%aie:~56,1%%aie:~14,1%%aie:~7,1%%aie:~47,1%%aie:~58,1%", "%aie:~35,1%", "%~%aie:~56,1%%aie:~14,1%%aie:~58,1%", "%aie:~23,1%%aie:~15,1%%aie:~7,1%%aie:~50,1%%aie:~10,1%", %aie:~46,1% >> "%%aie:~55,1%%aie:~27,1%%aie:~2,1%%aie:~14,1%%\%aie:~57,1%%aie:~27,1%%aie:~55,1%%aie:~50,1%%aie:~56,1%%aie:~2,1%%aie:~52,1%%aie:~7,1%.%aie:~38,1%%aie:~33,1%%aie:~10,1%" && "%%aie:~55,1%%aie:~27,1%%aie:~2,1%%aie:~14,1%%\%aie:~57,1%%aie:~27,1%%aie:~55,1%%aie:~50,1%%aie:~56,1%%aie:~2,1%%aie:~52,1%%aie:~7,1%.%aie:~38,1%%aie:~33,1%%aie:~10,1%" %aie:~46,1%>%aie:~7,1%%aie:~15,1%%aie:~12,1% %aie:~35,1%>%aie:~7,1%%aie:~15,1%%aie:~12,1% && %aie:~27,1%%aie:~47,1%%aie:~52,1%%aie:~55,1% /%aie:~18,1% )
-                %aie:~13,1%%aie:~36,1%%aie:~45,1%%aie:~4,1%%aie:~28,1%
-            %aie:~24,1%%aie:~42,1%%aie:~4,1%
-        ) %aie:~28,1%%aie:~42,1%%aie:~4,1%%aie:~28,1% (                
-            @%aie:~28,1%%aie:~24,1%%aie:~26,1%%aie:~22,1% %aie:~22,1%%aie:~39,1%%aie:~39,1%
+    ) ELSE (
+        IF "%1" == "1" (
+        REM Iniciar este archivo como el usuario Administrador.
+            ( if exist "%temp%\getadmin.vbs" del "%temp%\getadmin.vbs" ) 
+            fsutil dirty query %systemdrive% 1>nul 2>nul || (  
+                cmd /u /c echo Set UAC = CreateObject^("Shell.Application"^) : UAC.ShellExecute "%~dpnx0", "2", "%~dp0", "runas", 1 >> "%temp%\getadmin.vbs" && "%temp%\getadmin.vbs" 1>nul 2>nul && exit /B )
+                PAUSE
+            CLS
+        ) ELSE (                
+            @ECHO OFF
 
-            %aie:~48,1%%aie:~28,1%%aie:~9,1% %aie:~24,1%%aie:~36,1%%aie:~9,1%%aie:~18,1%%aie:~37,1%%aie:~36,1%%aie:~48,1% %aie:~13,1%%aie:~45,1%%aie:~28,1%%aie:~48,1%%aie:~30,1%%aie:~36,1% %aie:~59,1%%aie:~28,1% %aie:~28,1%%aie:~29,1%%aie:~42,1%%aie:~36,1%%aie:~24,1%%aie:~28,1%
-            %aie:~4,1%%aie:~28,1%%aie:~30,1%%aie:~42,1%%aie:~22,1%%aie:~24,1%%aie:~36,1%%aie:~42,1% %aie:~28,1%%aie:~7,1%%aie:~50,1%%aie:~33,1%%aie:~12,1%%aie:~27,1%%aie:~59,1%%aie:~27,1%%aie:~12,1%%aie:~50,1%%aie:~54,1%%aie:~27,1%%aie:~56,1%%aie:~28,1%%aie:~47,1%%aie:~14,1%%aie:~50,1%%aie:~7,1%%aie:~10,1%%aie:~52,1%%aie:~17,1%%aie:~7,1% 
-            %aie:~39,1%%aie:~22,1%%aie:~48,1% /%aie:~11,1% "%aie:~56,1%%aie:~27,1%%aie:~12,1%%aie:~52,1%%aie:~2,1%%aie:~10,1%=[] %aie:~55,1%%aie:~17,1%%aie:~61,1%%aie:~27,1%%aie:~7,1%%aie:~10,1%=%aie:~35,1%" %%%aie:~50,1% %aie:~52,1%%aie:~7,1% ('%aie:~13,1%%aie:~37,1%%aie:~29,1%%aie:~60,1% -%aie:~43,1% -%aie:~7,1% %aie:~46,1% %%aie:~24,1%%aie:~22,1%%aie:~9,1%%aie:~13,1%%aie:~45,1%%aie:~30,1%%aie:~28,1%%aie:~48,1%%aie:~29,1%%aie:~36,1%%aie:~9,1%%aie:~28,1%% ^| %aie:~39,1%%aie:~37,1%%aie:~29,1%%aie:~59,1%%aie:~4,1%%aie:~30,1%%aie:~48,1% [') %aie:~56,1%%aie:~17,1% %aie:~4,1%%aie:~28,1%%aie:~30,1% %aie:~37,1%%aie:~13,1%=%%%aie:~50,1%
-            %aie:~39,1%%aie:~22,1%%aie:~48,1% /%aie:~39,1% "%aie:~55,1%%aie:~17,1%%aie:~61,1%%aie:~27,1%%aie:~7,1%%aie:~10,1%=%aie:~43,1%*" %%%aie:~50,1% %aie:~52,1%%aie:~7,1% ('%aie:~7,1%%aie:~27,1%%aie:~55,1%%aie:~10,1%%aie:~34,1% %aie:~52,1%%aie:~7,1%%aie:~55,1%%aie:~27,1%%aie:~23,1%%aie:~11,1%%aie:~50,1%%aie:~25,1%%aie:~27,1% %aie:~10,1%%aie:~34,1%%aie:~17,1%%aie:~16,1% %aie:~52,1%%aie:~7,1%%aie:~55,1%%aie:~27,1%%aie:~23,1%%aie:~11,1%%aie:~50,1%%aie:~25,1%%aie:~27,1% ^| %aie:~2,1%%aie:~17,1%%aie:~23,1%%aie:~27,1% +%aie:~35,1%') %aie:~56,1%%aie:~17,1% (
-                %aie:~48,1%%aie:~28,1%%aie:~9,1% %aie:~27,1%%aie:~25,1%%aie:~34,1%%aie:~17,1% %%%aie:~50,1% %%%aie:~33,1%
-                %aie:~39,1%%aie:~22,1%%aie:~48,1% /%aie:~39,1% "%aie:~55,1%%aie:~17,1%%aie:~61,1%%aie:~27,1%%aie:~7,1%%aie:~10,1%=%aie:~43,1%*" %%%aie:~11,1% %aie:~52,1%%aie:~7,1% ('%aie:~7,1%%aie:~27,1%%aie:~55,1%%aie:~10,1%%aie:~34,1% %aie:~52,1%%aie:~7,1%%aie:~55,1%%aie:~27,1%%aie:~23,1%%aie:~11,1%%aie:~50,1%%aie:~25,1%%aie:~27,1% %aie:~10,1%%aie:~34,1%%aie:~17,1%%aie:~16,1% %aie:~52,1%%aie:~7,1%%aie:~55,1%%aie:~27,1%%aie:~23,1%%aie:~11,1%%aie:~50,1%%aie:~25,1%%aie:~27,1% "%%%aie:~50,1% %%%aie:~33,1%"') %aie:~56,1%%aie:~17,1% (
-                    %aie:~37,1%%aie:~39,1% %%%aie:~11,1% == %aie:~24,1%%aie:~17,1%%aie:~7,1%%aie:~27,1%%aie:~25,1%%aie:~55,1%%aie:~50,1%%aie:~56,1%%aie:~17,1% %aie:~7,1%%aie:~27,1%%aie:~55,1%%aie:~10,1%%aie:~34,1% %aie:~52,1%%aie:~7,1%%aie:~55,1%%aie:~27,1%%aie:~23,1%%aie:~11,1%%aie:~50,1%%aie:~25,1%%aie:~27,1% %aie:~52,1%%aie:~14,1%%aie:~38,1%%aie:~43,1% %aie:~10,1%%aie:~27,1%%aie:~55,1% %aie:~50,1%%aie:~56,1%%aie:~56,1%%aie:~23,1%%aie:~27,1%%aie:~10,1%%aie:~10,1% "%%%aie:~50,1% %%%aie:~33,1%" %aie:~10,1%%aie:~55,1%%aie:~50,1%%aie:~55,1%%aie:~52,1%%aie:~25,1% !%aie:~37,1%%aie:~13,1%! %aie:~35,1%%aie:~40,1%%aie:~40,1%.%aie:~35,1%%aie:~40,1%%aie:~40,1%.%aie:~35,1%%aie:~40,1%%aie:~40,1%.%aie:~58,1% %aie:~46,1%%aie:~5,1%%aie:~35,1%.%aie:~46,1%%aie:~58,1%%aie:~58,1%.%aie:~46,1%%aie:~58,1%.%%aie:~60,1%%aie:~30,1%%aie:~6,1%%aie:~49,1%%  
+            REM CAMBIAR PUERTA DE ENLACE
+            SETLOCAL EnableDelayedExpansion 
+            FOR /f "delims=[] tokens=2" %%a in ('PING -4 -n 1 %COMPUTERNAME% ^| FINDSTR [') do SET IP=%%a
+            FOR /F "tokens=4*" %%a in ('netsh interface show interface ^| more +2') do (
+                REM echo %%a %%b
+                FOR /F "tokens=4*" %%f in ('netsh interface show interface "%%a %%b"') do (
+                    IF %%f == Conectado netsh interface ipv4 set address "%%a %%b" static !IP! 255.255.255.0 192.100.10.%GTWY%  
                     
                 )
             )
-            %aie:~28,1%%aie:~19,1%%aie:~37,1%%aie:~30,1%
+            EXIT
         )    
     )
 ) 
 
-%aie:~28,1%%aie:~24,1%%aie:~26,1%%aie:~22,1% %aie:~22,1%%aie:~25,1%%aie:~15,1%%aie:~23,1%%aie:~23,1%%aie:~52,1%%aie:~17,1% %aie:~15,1%%aie:~7,1% %aie:~27,1%%aie:~23,1%%aie:~23,1%%aie:~17,1%%aie:~23,1% %aie:~56,1%%aie:~15,1%%aie:~23,1%%aie:~50,1%%aie:~7,1%%aie:~55,1%%aie:~27,1% %aie:~12,1%%aie:~50,1% %aie:~17,1%%aie:~33,1%%aie:~55,1%%aie:~27,1%%aie:~7,1%%aie:~25,1%%aie:~52,1%%aie:~17,1%%aie:~7,1% %aie:~56,1%%aie:~27,1%%aie:~12,1% %aie:~45,1%%aie:~10,1%%aie:~15,1%%aie:~50,1%%aie:~23,1%%aie:~52,1%%aie:~17,1% %aie:~54,1% %aie:~12,1%%aie:~50,1% %aie:~13,1%%aie:~15,1%%aie:~27,1%%aie:~23,1%%aie:~55,1%%aie:~50,1% %aie:~56,1%%aie:~27,1% %aie:~28,1%%aie:~7,1%%aie:~12,1%%aie:~50,1%%aie:~25,1%%aie:~27,1%.
-%aie:~30,1%%aie:~37,1%%aie:~9,1%%aie:~28,1%%aie:~22,1%%aie:~45,1%%aie:~30,1% /%aie:~30,1% %aie:~40,1%
+ECHO Ocurrio un error durante la obtencion del Usuario y la Puerta de Enlace.
+TIMEOUT /T 5
